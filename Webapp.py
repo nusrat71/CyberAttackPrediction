@@ -1,7 +1,7 @@
 import pandas as pd
 
 import streamlit as st
-from sklearn import *
+
 from PIL import Image
 st.header('Types of Cyber Attack Prediction')
 image=Image.open('C:/Users/nsrtk/PycharmProjects/pythonProject/Cyber.png')
