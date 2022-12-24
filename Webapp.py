@@ -4,14 +4,14 @@ import streamlit as st
 
 from PIL import Image
 st.header('Types of Cyber Attack Prediction')
-image=Image.open('https://github.com/nusrat71/CyberAttackPrediction/blob/main/Cyber.PNG')
-st.image(image,caption='',use_column_width=True)
+#image=Image.open('https://github.com/nusrat71/CyberAttackPrediction/blob/main/Cyber.PNG')
+#st.image(image,caption='',use_column_width=True)
 
 
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
-df=pd.read_csv("https://github.com/nusrat71/CyberAttackPrediction.git/file1(1).csv")
+df=pd.read_csv("https://github.com/nusrat71/CyberAttackPrediction/blob/master/file1(1).csv")
 df.isnull().sum()
 df=df.dropna()
 ####
