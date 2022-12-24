@@ -4,7 +4,7 @@ import streamlit as st
 
 from PIL import Image
 st.header('Types of Cyber Attack Prediction')
-image=Image.open('https://github.com/nusrat71/CyberAttackPrediction.git/Cyber.png')
+image=Image.open('https://github.com/nusrat71/CyberAttackPrediction/blob/main/Cyber.PNG')
 st.image(image,caption='',use_column_width=True)
 
 
