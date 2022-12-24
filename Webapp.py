@@ -11,7 +11,7 @@ st.image(image,caption='',use_column_width=True)
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
-df=pd.read_csv("C:\\Users\\nsrtk\\file1(1).csv")
+df=pd.read_csv("https://github.com/nusrat71/CyberAttackPrediction.git/file1(1).csv")
 df.isnull().sum()
 df=df.dropna()
 ####
