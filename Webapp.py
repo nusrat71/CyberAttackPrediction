@@ -10,7 +10,7 @@ st.header('Types of Cyber Attack Prediction')
 
 import pandas as pd
 import numpy as np
-from sklearn.model_selection import train_test_split
+#from sklearn.model_selection import train_test_split
 df=pd.read_csv("https://github.com/nusrat71/CyberAttackPrediction/blob/master/file1(1).csv")
 df.isnull().sum()
 df=df.dropna()
